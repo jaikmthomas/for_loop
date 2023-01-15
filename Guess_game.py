@@ -1,5 +1,5 @@
 #guessing game that gives the user 3 tries to guess a number between 1 and 10
-secret_number=8
+secret_number= int(input("Enter a number:"))
 guess = 0
 tries = 0
 while tries < 3 and guess != secret_number:
